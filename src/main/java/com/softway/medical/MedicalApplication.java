@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MedicalApplication {
 
 	public static void main(String[] args) {
-		var result = App.getPathologiePatient(2);
+		// change ça pour tester l'appli, ex: 15
+		var index = 2;
+		var result = App.getPathologiePatient(index);
 		System.out.println(result);
 		SpringApplication.run(MedicalApplication.class, args);
 	}
