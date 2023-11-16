@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class App {
 
     /*
-     * Method permettant de deriger un patient  vers l'unité médicale adaptée au sein de l'hôpital
+     * Methode permettant de diriger un patient  vers l'unité médicale adaptée au sein de l'hôpital
      */
     public static String getPathologiePatient(Integer index) {
 
